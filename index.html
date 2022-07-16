@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+
+    <body>
+        <div id="container">
+            <div id="survey-title">
+                <h1 id= "title">
+                        GTA Car Survey Form
+                </h1>
+                
+                <p id ="description"> Thankyou for filling the form</p>
+            </div>
+
+            <form id="survey-form">
+                <label id="name-label" class="form-label">Name</label><br>
+                <input type="text" id="name" required class="form-control" placeholder="Enter your Name"><br>
+                <label id="email-label" class="form-label">Email</label><br>
+                <input type="email" id="email" required class="form-control" placeholder="Enter your Email"><br>
+                <label id="number-label" class="form-label">Age</label><br>
+                <input type="number" id="number" class="form-control" min="4" max="60"placeholder="Age" required><br>
+                
+                <label id="question" class="form-label">What is the best looking Car in GTA 5 Online? </label>
+                <select id="dropdown" name="cars" class="form-control" required> 
+                    <option value="pfister-811">Pfister 811</option>
+                    <option value="pegassi-ignus">Pegassi Ignus</option>
+                    <option value="grotti-itali-rsx">Grotti Itali RSX</option>
+                </select><br>
+                
+                <label class="form-label">Gender</label><br>
+                <label class="radio-label"><input type="radio" name="gender" value="male" class="radio-inline" checked>Male</label><br>
+                <label class="radio-label"><input type="radio" name="gender" value="female" class="radio-inline">Female</label><br>
+                <label class="radio-label"><input type="radio" name="gender" value="other" class="radio-inline">Other</label><br><br>
+                
+                <label class="form-label">What Gun do you use in GTA 5 online?</label><br>
+                <label class="checkbox-label"><input type="checkbox" name="Gun" value="MKII Heavy Revolver">MKII Heavy Revolver</label><br>
+                <label class="checkbox-label"><input type="checkbox" name="Gun" value="Combat MG MKII.">Combat MG MKII</label><br>
+                <label class="checkbox-label"><input type="checkbox" name="Gun" value="Special Carbine">Special Carbine</label><br>
+                <label class="checkbox-label"><input type="checkbox" name="Gun" value="Heavy Sniper">Heavy Sniper</label><br><br>
+
+                <textarea placeholder="Additional Comments" class="form-control"></textarea><br><br>
+                <input id="submit" type="submit" class="form-control">
+
+
+            </form>
+
+        </div>   
+
+    </body>
+</html>

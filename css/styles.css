@@ -1,0 +1,68 @@
+body{
+    background-image: url(https://m.media-amazon.com/images/M/MV5BYWQyNTY1NzAtMGJiYi00ZTcwLWE0ZjktYjY4YTZkMzA1YzZmXkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_FMjpg_UX1000_.jpg) ;
+
+}
+#container{
+    background-color: rgb(71, 71, 148);;
+}
+#title{
+
+    color: red;
+    font-family: "Comic Sans MS";
+    justify-content: center;
+    text-align: center;
+}
+
+#description{
+
+    color : red;
+    text-align:center;
+    font-family: "Comic Sans MS";
+    font-style : italic;
+}
+
+#survey-form{
+    display:block;
+    padding-left: 30%;
+    background-color: rgb(71, 71, 148);
+    height:750px;
+}
+
+.form-label{
+    font-family: 'Poppins', sans-serif;;
+    font-weight : 1000;
+    font-size: larger;
+    color : white
+}
+
+.radio-label{
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+input, button, select, textarea {
+    
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.radio-inline{
+    display: inline-block;
+}
+
+.form-control {
+    display: block;
+    width: 60%;
+    left : 20%;
+    font-weight: 600;
+    height: 2.375rem;
+    padding: 0.375rem 0.75rem;
+    color: #24476b;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
